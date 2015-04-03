@@ -1,6 +1,6 @@
 {
   "name": "express-rev",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Middleware which adds helper functions for dealing with manifest files and file fingerprints.",
   "main": "index.js",
   "scripts": {

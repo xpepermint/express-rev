@@ -1,4 +1,4 @@
-# [express](http://expressjs.com)-manifest
+# [express](http://expressjs.com)-rev
 
 > Middleware which adds helper functions for dealing with manifest files and file fingerprints.
 
