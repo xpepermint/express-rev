@@ -1,0 +1,4 @@
+{
+  "manifest": "./public/assets/rev-manifest.json",
+  "prepend": "/assets"
+}
