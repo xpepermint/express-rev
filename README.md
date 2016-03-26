@@ -10,7 +10,7 @@ Configure your ExpressJS project based on the example below. Include this middle
 // index.js (example ExpressJS application)
 
 var express = require('express');
-var manifest = require('express-rev');
+var rev = require('express-rev');
 var app = express();
 
 app.set('views', './views');
@@ -38,10 +38,10 @@ doctype html
 html(lang='en')
   head
     title Asset Fingerprint Example
-    link(rel='stylesheet', type='text/css', href=assetPath('index.css'))
-    script(type='text/javascript', src='assetPath(index.js'))
+    link(rel='stylesheet', type='text/css', href=rev('index.css'))
+    script(type='text/javascript', src='rev(index.js'))
   body
-    img(src=assetPath('logo.png'))
+    img(src=rev('logo.png'))
 ```
 
 Now all you need is a good asset-pipeline module. Use [gulp](gulpjs.com) with [gulp-devkit](https://github.com/xpepermint/gulp-devkit) for that.
